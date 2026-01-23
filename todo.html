@@ -1,0 +1,30 @@
+<html lang ="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="" class="form-input">
+        <!--todo title-->
+        <label> Title </label>
+        <input type="text" name="" id="" placeholder="do fishing">
+        <!--todo description-->
+        <input type="text" name="" id="" placeholder="go to the lake and do fishing">
+        <!--todo date-->
+        <input type="date" name="" id="">
+        <button type="Submit"> submit </button>
+        </form>
+        <script>
+            let btn = document.querySelector('button')
+
+            let titleInput = document.querySelector('#title').value
+            let descriptionInput = document.querySelector('#description').value
+            let dateInput = document.querySelector('#date').value
+
+            btn.addEventListener('click',(e) => {
+                // todo get the userinput and store it somewhere
+                e.preventDefault
+                console.log(titleInput, descriptionInput, dateInput)
+            })
+        </script>
+    </body>
+</html>
